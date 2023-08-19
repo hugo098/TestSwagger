@@ -1,7 +1,7 @@
-﻿using CititesManager.WebAPI.Models;
+﻿using CititesManager.Core.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace CititesManager.WebAPI.DatabaseContext
+namespace CititesManager.Infrastructure.DatabaseContext
 {
     public class ApplicationDbContext : DbContext
     {
